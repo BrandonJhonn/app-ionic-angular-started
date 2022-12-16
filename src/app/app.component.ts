@@ -6,13 +6,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Form Controls', url: '/folder/Form-Controls', icon: 'logo-vue' },
+    { title: 'Alert And Toast', url: '/folder/Alert-And-Toast', icon: 'logo-angular' },
+    { title: 'Aditional Controls', url: '/folder/Aditional-Controls', icon: 'logo-react' },
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+  public labels = [
+    'Single Responsability', 
+    'Open/Closed', 
+    'Liskov Substitution', 
+    'Iterface Segregation', 
+    'Dependency Inversion'];
   constructor() {}
 }

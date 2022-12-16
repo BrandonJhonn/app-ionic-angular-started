@@ -8,12 +8,17 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
 
+import { FormsComponent } from '../components/forms/forms.component';
+import { AlertsComponent } from '../components/alerts/alerts.component';
+import { CalendarComponent } from '../components/calendar/calendar.component';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    FolderPageRoutingModule,
+    FormsComponent, AlertsComponent, CalendarComponent
   ],
   declarations: [FolderPage]
 })

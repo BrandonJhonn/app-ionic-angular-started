@@ -1,0 +1,26 @@
+<ion-grid>
+  <ion-row class="ion-text-center">
+    <ion-col size="12">
+      <h4>Simple Alert</h4>
+      <ion-button (click)="presentAlert()">Click Me</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="ion-text-center">
+    <ion-col size="12">
+      <h4>Alert with Options</h4>
+      <ion-button (click)="presentAlertOptions()">Click Me</ion-button>
+      <p>{{ handlerMessage }}</p>
+      <p>{{ roleMessage }}</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="ion-text-center">
+    <ion-col size="12">
+      <h4>Alert Toast</h4>
+      <ion-button expand="inline" (click)="presentToast('top')">Toast-Top</ion-button>
+      <ion-button expand="inline" (click)="presentToast('middle')">Toast-Middle</ion-button>
+      <ion-button expand="inline" (click)="presentToast('bottom')">Toast-Bottom</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>

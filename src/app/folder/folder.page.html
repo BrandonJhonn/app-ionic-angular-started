@@ -15,7 +15,8 @@
   </ion-header>
 
   <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <app-forms *ngIf="folder === 'Form Controls'"></app-forms>
+    <app-alerts *ngIf="folder === 'Alert And Toast'"></app-alerts>
+    <app-calendar *ngIf="folder === 'Aditional Controls'"></app-calendar>
   </div>
 </ion-content>
