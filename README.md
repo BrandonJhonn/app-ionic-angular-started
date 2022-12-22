@@ -33,5 +33,5 @@ ionic serve
 
 #### References
 
-* [Starting with Ionic](https://bit.ly/3POlcaJ)
-* [First Ionic App with Angular](https://bit.ly/3jikyWR)
+* <a href="https://bit.ly/3POlcaJ" target="_blank">Starting with Ionic</a>
+* <a href="https://bit.ly/3jikyWR" target="_blank">First Ionic App with Angular</a>
